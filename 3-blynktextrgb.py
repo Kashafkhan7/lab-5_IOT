@@ -42,6 +42,7 @@ r = 0
 g = 0
 b = 0
 
+
 # Blynk Handlers for Virtual Pins
 @blynk.on("V0")  # Red Slider
 def v0_handler(value):
