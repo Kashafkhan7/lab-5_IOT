@@ -40,7 +40,6 @@ def split_text(text, max_chars_per_line=16):
     return lines
 
 
-
 def display_text(text):
     oled.fill(0)  # Clear the display
     lines = split_text(text)  # Split text into lines
